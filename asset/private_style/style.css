@@ -1,0 +1,35 @@
+body {
+	background: #f8f9fa; /* Warna latar yang lembut */
+  }
+  
+.card {
+border-radius: 15px; /* Membuat sudut kartu lebih bulat */
+}
+
+.btn-warning {
+background-color: #ffc107;
+border: none;
+}
+
+.btn-warning:hover {
+background-color: #e0a800; /* Warna tombol saat hover */
+}
+
+.form-control:focus {
+border-color: #ffc107;
+box-shadow: 0 0 5px rgba(255, 193, 7, 0.5);
+}
+
+@media (max-width: 991.98px) 
+{ 
+	.container {
+		margin-top: 0px;
+	}
+	.welcome {
+		font-size: 32px;
+		padding: 30px;
+	}
+	.form-login {
+		height: 295px;
+	}
+}

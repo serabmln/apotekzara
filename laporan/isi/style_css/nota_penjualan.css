@@ -1,0 +1,67 @@
+/* Styling untuk halaman nota */
+.page-content {
+    font-family: Arial, sans-serif;
+}
+
+.header-table {
+    width: 100%;
+    margin-bottom: 5px;
+}
+
+.apotek-info {
+    width: 50%;
+    text-align: left;
+    font-size: 5px; /* Mengecilkan ukuran font */
+}
+
+.nota-info {
+    text-align: right;
+    font-size: 5px; /* Mengecilkan ukuran font */
+}
+
+.nota-title {
+    font-weight: bold;
+    font-size: 6px;
+}
+
+.sales-table,
+.items-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 3px;
+}
+
+.sales-table td,
+.items-table td {
+    padding: 2px 4px;
+    font-size: 5px;
+}
+
+.items-table th {
+    background-color: #f2f2f2;
+    padding: 3px 6px;
+    font-size: 5px;
+}
+
+.totals-row td,
+.cash-row td,
+.change-row td {
+    font-weight: bold;
+    font-size: 5px;
+}
+
+.total-value,
+.cash-value,
+.change-value {
+    font-size: 6px;
+}
+
+.footer-section {
+    text-align: center;
+    margin-top: 3px;
+}
+
+.thank-you {
+    font-size: 5px;
+    font-weight: bold;
+}
